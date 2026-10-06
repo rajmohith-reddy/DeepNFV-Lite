@@ -1,0 +1,8 @@
+numpy
+scapy
+scikit-learn
+matplotlib
+flask
+requests
+psutil
+torch

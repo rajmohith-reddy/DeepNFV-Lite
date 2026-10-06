@@ -1,0 +1,215 @@
+{
+  "CNN": {
+    "accuracy": 0.8853333333333333,
+    "precision": 0.8881306317746246,
+    "recall": 0.8853333333333333,
+    "f1": 0.8859022269012213,
+    "confusion_matrix": [
+      [
+        67,
+        0,
+        7,
+        1,
+        0
+      ],
+      [
+        0,
+        75,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        53,
+        18,
+        3
+      ],
+      [
+        0,
+        0,
+        12,
+        63,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        74
+      ]
+    ],
+    "per_class": {
+      "BitTorrent": {
+        "precision": 0.9852941176470589,
+        "recall": 0.8933333333333333,
+        "f1-score": 0.9370629370629371,
+        "support": 75.0
+      },
+      "Facetime": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 75.0
+      },
+      "Gmail": {
+        "precision": 0.726027397260274,
+        "recall": 0.7066666666666667,
+        "f1-score": 0.7162162162162162,
+        "support": 75.0
+      },
+      "Outlook": {
+        "precision": 0.7682926829268293,
+        "recall": 0.84,
+        "f1-score": 0.802547770700637,
+        "support": 75.0
+      },
+      "WorldOfWarcraft": {
+        "precision": 0.961038961038961,
+        "recall": 0.9866666666666667,
+        "f1-score": 0.9736842105263158,
+        "support": 75.0
+      },
+      "accuracy": 0.8853333333333333,
+      "macro avg": {
+        "precision": 0.8881306317746246,
+        "recall": 0.8853333333333333,
+        "f1-score": 0.8859022269012213,
+        "support": 375.0
+      },
+      "weighted avg": {
+        "precision": 0.8881306317746247,
+        "recall": 0.8853333333333333,
+        "f1-score": 0.8859022269012212,
+        "support": 375.0
+      }
+    }
+  },
+  "CART": {
+    "accuracy": 0.9733333333333334,
+    "precision": 0.9759398496240601,
+    "recall": 0.9733333333333334,
+    "f1": 0.9730690276860464,
+    "confusion_matrix": [
+      [
+        75,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        75,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        65,
+        9,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        75,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        75
+      ]
+    ],
+    "per_class": {
+      "BitTorrent": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 75.0
+      },
+      "Facetime": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 75.0
+      },
+      "Gmail": {
+        "precision": 1.0,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.9285714285714286,
+        "support": 75.0
+      },
+      "Outlook": {
+        "precision": 0.8928571428571429,
+        "recall": 1.0,
+        "f1-score": 0.9433962264150944,
+        "support": 75.0
+      },
+      "WorldOfWarcraft": {
+        "precision": 0.9868421052631579,
+        "recall": 1.0,
+        "f1-score": 0.9933774834437086,
+        "support": 75.0
+      },
+      "accuracy": 0.9733333333333334,
+      "macro avg": {
+        "precision": 0.9759398496240601,
+        "recall": 0.9733333333333334,
+        "f1-score": 0.9730690276860464,
+        "support": 375.0
+      },
+      "weighted avg": {
+        "precision": 0.9759398496240601,
+        "recall": 0.9733333333333334,
+        "f1-score": 0.9730690276860463,
+        "support": 375.0
+      }
+    }
+  },
+  "split": {
+    "train": 1750,
+    "val": 375,
+    "test": 375
+  },
+  "class_counts": {
+    "train": [
+      350,
+      350,
+      350,
+      350,
+      350
+    ],
+    "val": [
+      75,
+      75,
+      75,
+      75,
+      75
+    ],
+    "test": [
+      75,
+      75,
+      75,
+      75,
+      75
+    ],
+    "classes": [
+      "BitTorrent",
+      "Facetime",
+      "Gmail",
+      "Outlook",
+      "WorldOfWarcraft"
+    ]
+  },
+  "cart_depth": 6,
+  "cart_leaves": 19
+}
